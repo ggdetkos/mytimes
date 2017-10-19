@@ -5,3 +5,18 @@ body {
   font-family: Georgia, serif;
   font-size: 17px;
 }
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logoLabel {
+  color: MediumAquamarine;
+}
+
+nav span {
+  display: inline-block;
+}
