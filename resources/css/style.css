@@ -17,11 +17,10 @@ a {
 }
 
 h1 {
-  font-size: 1.5em;  
-}
-
-h2 {
-  font-size: 1.2em;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
 }
 
 header {
@@ -66,6 +65,9 @@ nav span {
 }
 
 #content {
+  color: #000000;
+  font-size: 17px;
+  font-family: Georgia, serif;
   display: flex;
   justify-content: center;
   margin-top: 80px;
@@ -88,4 +90,30 @@ nav span {
 
 .column.small {
   width: 240px;
+}
+
+.storyImage {
+  height: 300px;
+  padding: 0 10px;
+  display: flex;
+}
+
+#mother-of-three {
+  background-image: url(../images/img-story-main.png);
+}
+
+#mother-of-three h1 {
+  font-size: 40px;
+}
+
+#earth-spins {
+  background-image: url(../images/img-story-2.png);
+}
+
+#cameras-erase {
+  background-image: url(../images/img-story-3.png);
+}
+
+#cats-in-control {
+  background-image: url(../images/img-story-1.png);
 }
