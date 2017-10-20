@@ -52,3 +52,23 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+#content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
