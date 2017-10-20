@@ -92,6 +92,17 @@ nav span {
   width: 240px;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.storycolumn {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 .storyImage {
   height: 300px;
   padding: 0 10px;
@@ -116,4 +127,10 @@ nav span {
 
 #cats-in-control {
   background-image: url(../images/img-story-1.png);
+}
+
+#earth-spins h1,
+#cameras-erase h1,
+#cats-in-control h1 {
+  text-align: center;
 }
