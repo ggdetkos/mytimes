@@ -59,19 +59,24 @@ nav span {
 
 #content {
   display: flex;
-  margin-top: 70px;
+  justify-content: center;
+  margin-top: 80px;
+  width: 1234px;
 }
 
 .column {
   display: flex;
+  flex-direction: column;
 }
 
 .column.large {
   width: 630px;
+  margin-right: 32px;
 }
 
 .column.medium {
   width: 300px;
+  margin-right: 32px;
 }
 
 .column.small {
