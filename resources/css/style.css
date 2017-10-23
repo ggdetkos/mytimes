@@ -23,6 +23,12 @@ h1 {
   text-align: left;
 }
 
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
 header {
   background-color: #FFFFFF;
   font-family: Verdana, sans-serif;
@@ -134,3 +140,25 @@ nav span {
 #cats-in-control h1 {
   text-align: center;
 }
+
+#newsBites ul {
+  background-color: WhiteSmoke;
+  color: DimGrey;
+  font-family: Verdana;
+  font-size: 12px;
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#newsBites li {
+  padding: 11px 20px;
+  border-top: thin solid #000000;
+  border-bottom: thin solid #000000;
+}
+
+
+
+
