@@ -1,10 +1,5 @@
 /* Base CSS for "My Times" */
 
-/* REMOVE WHEN FINISH */
-div {
-  border: thin solid black;
-}
-
 body {
   color: #000000;
   background-color: #FFFFFF;
@@ -46,26 +41,26 @@ header {
   height: 70px;
 }
 
-div.logo {
+div#logoTop {
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
 }
 
-.logoImage {
+#logoImageTop {
   padding-right: 12px;
 }
 
-.logoLabel {
+#logoLabelTop {
   color: MediumAquamarine;
 }
 
-nav {
+header nav {
   padding-right: 40px;
 }
 
-nav span {
+header nav span {
   display: inline-block;
   padding: 20px 10px;
 }
@@ -159,6 +154,35 @@ nav span {
   border-bottom: thin solid #000000;
 }
 
+footer {
+  background-color: MediumAquamarine;
+  font-size: 12px;
+  font-family: Verdana;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  margin: auto;
+}
 
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
 
+footer nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
 
+#logoBottom {
+  color: #FFFFFF;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  border-right: 2px solid #FFFFFF;
+  padding-right: 25px;
+  display: inline-block;
+}
